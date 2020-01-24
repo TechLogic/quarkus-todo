@@ -4,5 +4,3 @@ CREATE TABLE todo
     text varchar(255),
     CONSTRAINT todoentry_pkey PRIMARY KEY (id)
 );
-
-INSERT INTO todo VALUES (1,'Hello World!');
